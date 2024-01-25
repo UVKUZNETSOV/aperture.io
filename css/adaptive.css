@@ -141,4 +141,34 @@
     background-position: 0% 0%;
     background-repeat: no-repeat;
   }
+  .motion-show {
+    transform: translateX(-50px);
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .motion-show {
+    transform: translateX(-10px);
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .motion-show {
+    transform: translateX(-10px);
+  }
+  .location ul {
+    right: 10px;
+  }
+  .stuff__content h1 {
+    font-size: 14px;
+  }
+  .stuff__content h1::after {
+    font-size: 10px;
+  }
+  .help h1 {
+    font-size: 23px;
+  }
+  .main__title::after {
+    font-size: 12px;
+  }
 }
