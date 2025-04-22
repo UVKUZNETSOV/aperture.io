@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: aperture-studios
+    ports:
+      - "3002:8080"
+    restart: always
